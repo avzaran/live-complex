@@ -1,0 +1,131 @@
+.container {
+    max-width: 960px;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+
+    background-color: #ffffff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.left {
+    flex: 1;
+    min-width: 300px;
+}
+
+.right {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.right img {
+    max-height: 320px;
+    width: auto;
+}
+
+.caption {
+    font-size: 14px;
+    margin-top: 0.5rem;
+    color: #333;
+}
+
+.tagline {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #d10000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 1rem 0;
+    line-height: 1.3;
+}
+
+.title span {
+    color: #000;
+}
+
+.benefits {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 1.5rem;
+}
+
+.benefits li {
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+    color: #333;
+}
+
+.form label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.inputGroup {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+input[type="tel"] {
+    padding: 0.5rem 0.75rem;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    flex: 1;
+    min-width: 200px;
+}
+
+button {
+    background-color: #7a2e2e;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Плавная анимация при отправке */
+.successBtn {
+    background-color: #2e7a2e !important;
+    animation: fadeIn 0.4s ease forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.privacy {
+    font-size: 12px;
+    color: #666;
+    margin-top: -0.5rem;
+}
+
+.privacy a {
+    color: #444;
+    text-decoration: underline;
+}
