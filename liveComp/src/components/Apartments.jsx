@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import styles from "../styles/Apartments.module.css";
 import Modal from "../components/Modal";
-import light_1 from "../assets/light_1.svg";
-import light_2 from "../assets/light_2.svg";
-import light_3 from "../assets/light_3.svg";
-import dark_1 from "../assets/dark_1.svg";
-import dark_2 from "../assets/dark_2.svg";
-import dark_3 from "../assets/dark_3.svg";
-import apart1 from "../assets/apart1.svg";
-import apart2 from "../assets/apart2.svg";
+import light_1 from "../assets/Light_1.svg";
+import light_2 from "../assets/Light_2.svg";
+import light_3 from "../assets/Light_3.svg";
+import dark_1 from "../assets/Dark_1.svg";
+import dark_2 from "../assets/Dark_2.svg";
+import dark_3 from "../assets/Dark_3.svg";
+import apart1 from "../assets/Apart1.svg";
+import apart2 from "../assets/Apart2.svg";
 
 const variants = [
   {
