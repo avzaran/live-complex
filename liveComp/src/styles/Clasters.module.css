@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'TT Travels';
-    src: url('../assets/fonts/TT Travels Trial Bold.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
 
 .container {
     width: 100%;
@@ -33,7 +27,6 @@
 }
 
 .clusterTitle {
-    font-family: 'TT Travels', sans-serif;
     font-size: 28px;
     margin: 0 0 0.3rem;
     color: #fff;
