@@ -21,7 +21,7 @@ const images = [
 
 export default function Panorama() {
   return (
-    <div className={styles.container}>
+    <div id="panorama" className={styles.container}>
       <h2 className={styles.title}>
         Наслаждайтесь видами из окон своей квартиры
       </h2>

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+.container {
+    padding: 40px 0;
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+
+
+.mainTitle {
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 32px;
+    font-family: 'TT Travels', Arial, sans-serif;
+    font-weight: 700;
+    color: #222;
+    letter-spacing: 0.5px;
+}
+
+.section {
+    border-top: 1px solid #eee;
+    padding-top: 48px;
+    margin-top: 48px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.title {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+}
+
+.downloadBtn {
+    padding: 10px 22px;
+    background-color: #8b3740;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 15px;
+    border: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.downloadBtn:hover {
+    background: #a94a56;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr 1.2fr 1.6fr;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.imagesGrid {
+    display: contents;
+}
+
+.image {
+    width: 100%;
+    height: 320px;
+    display: block;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+}
+
+.image:first-child {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    height: 100%;
+    min-height: 400px;
+}
+
+.description {
+    background: #8b3740;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 220px;
+    max-width: 340px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.7;
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+    align-self: stretch;
+}
+
+.colorCircles {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.colorCircle {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}

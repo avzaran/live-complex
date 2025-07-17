@@ -18,7 +18,7 @@ export default function PresentationForm() {
   };
 
   return (
-    <div className={Styles.container}>
+    <div id="presentation" className={Styles.container}>
       <div className={Styles.left}>
         <span className={Styles.tagline}>СПЕЦИАЛЬНО ДЛЯ ВАС</span>
         <h2 className={Styles.title}>Персональная<br />презентация от <span>AKVILON</span></h2>

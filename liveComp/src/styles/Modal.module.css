@@ -1,0 +1,68 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: white;
+    padding: 32px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #000;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    
+}
+
+.submitBtn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #8b3740;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.submitBtn:hover {
+    background: #a94a56;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    margin-bottom: 8px;
+}

@@ -7,7 +7,7 @@ import h3 from '../assets/h3.svg'
 
 const Hero = () => {
     return (
-        <div className={Styles.hero}>
+        <div id="hero" className={Styles.hero}>
             <h1>Жизнь в районе с развитой и уютной инфраструктурой</h1>
             <p>Жилой комплекс недалеко от центра, но в то же время в тихом и уютном месте</p>
             <img src={hero} alt="hero" className={Styles.hero} />

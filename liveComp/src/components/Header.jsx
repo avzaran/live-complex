@@ -3,7 +3,7 @@ import Styles from '../styles/Header.module.css'
 
 const Header = () => {
     return (
-        <header className={Styles.header_card}>
+        <header id="header" className={Styles.header_card}>
             <div className={Styles.left}>
                 <span>Akvilon</span>
                 <span>Официальный партнер ОАО "Сбербанк"</span>

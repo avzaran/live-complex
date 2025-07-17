@@ -19,7 +19,7 @@ const NavBar = ({ activeSection }) => {
   };
 
   return (
-    <div className={Styles.navbar}>
+    <div id="navbar" className={Styles.navbar}>
       <ul className={Styles.navList}>
         {sections.map(({ id, label }) => (
           <li
